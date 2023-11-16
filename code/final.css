@@ -1,0 +1,150 @@
+a{
+    display: flex;
+    color:#ffffff;
+    background-color: orange;
+    padding: 0.3rem;
+    border-radius: 5rem;      
+}
+a:hover{background-color:blue;
+}
+/* nav bar */
+ul { list-style: none;
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    justify-content:space-evenly;
+    height: 100%;
+    padding: 0.5rem;
+}
+
+
+/* for the html*/
+html{
+    background-color: #ffffe0;
+    margin: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.Education{
+    background-color: black;
+    color: white;
+    width: 7rem;
+    border-radius: 3px;
+}
+
+h3{ background-color: black;
+color: white;
+width: 50%;
+}
+p{background-color:white;
+border: solid;
+border-style: solid;
+border-color:grey;
+color:black;
+width: 30rem;
+}
+
+    
+img{
+    border-radius: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: solid;
+    border-color: orange;
+       
+}
+
+form{
+    background-color:rgb(29, 92, 89);
+    color:white;  
+}
+form:hover{
+    background-color: black
+
+}
+h2{background-color: black;
+color: white;
+width: 7.3rem;
+border-radius: 5.2px;
+}
+.animation{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    color: orangered;
+    border-radius: 5rem;
+    float: left;
+    
+}
+    
+img:hover{
+    border-color: red;
+    animation-play-state: running;
+    border-radius: 50rem;
+
+}/*small decice*/
+
+@media(max-width:320px){
+    img{ width: 220px;
+        height:220px;
+
+    }
+
+.nav{width:220px;
+    height:1.2;
+    border-radius: 7rem;  
+}
+.Education{ margin: 2px;
+}
+h3{border: darkblue;
+color:orange;
+}
+p{background-color: black;
+color: white;
+border-radius: 1rem;
+font-family: cursive;}
+form{
+    width:15rem;
+}
+a{color:black;
+background-color:orangered;}
+
+
+}/* tablet */
+@media(max-width:768px){
+    img{
+        width:304px;
+        height:304px;
+    }
+    .nav{
+        width: 550px;
+        height:1.5rem;
+        
+    }
+    h3{color:lightskyblue;
+    background-color: dimgrey;}
+    p{background-color: #ffa500;
+    color: white;
+font-style: normal;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+form{width: 30rem;}
+}
+
+@media(max-width:1024px){
+    img{width:400px;
+    height: 400px;
+}
+.nav{
+    width:100%;
+    height:23px;
+
+}
+           
+}
+a{
+    display: grid;
+    float: right;
+
+}
